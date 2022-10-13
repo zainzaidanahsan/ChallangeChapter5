@@ -11,5 +11,11 @@ data class PostUserResponse(
     @field:SerializedName("password")
     val password: String? = null,
     @field:SerializedName("username")
-    val username: String? = null
+    val username: String? = null,
+    @field:SerializedName("nama_lengkap")
+    val namaLengkap: String? = null,
+    @field:SerializedName("tanggal_lahir")
+    val tanggalLahir: String? = null,
+    @field:SerializedName("alamat")
+    val alamat: String? = null,
 )
