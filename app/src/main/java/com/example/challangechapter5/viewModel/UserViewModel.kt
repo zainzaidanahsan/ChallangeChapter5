@@ -48,6 +48,7 @@ class UserViewModel : ViewModel() {
 
             })
     }
+
     fun updatePutApiUser(
         id: Int,
         username: String,
